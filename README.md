@@ -17,6 +17,7 @@ A simple Spring Boot demo API with a PostgreSQL database.
   spring.jpa.hibernate.ddl-auto=update
   spring.jpa.show-sql=true
   ```
-2. Docker Engine must be running in the background.
+2. Add postgres login credentials to `docker-compose.yml`
+3. Docker Engine must be running in the background.
 * (Optional because Spring boot should handle this) Run `docker compose up -d`
-3. Run the application on IntelliJ
+4. Run the application
