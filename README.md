@@ -1,5 +1,7 @@
 # Book API demo
 
+A simple Spring Boot demo API with a PostgreSQL database.
+
 ## Requirements
 * Java 23
 * Docker Desktop
