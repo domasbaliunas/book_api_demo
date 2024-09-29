@@ -4,8 +4,8 @@ services:
     container_name: postgres_db
     environment:
       POSTGRES_DB: booksdb
-      POSTGRES_USER: springuser
-      POSTGRES_PASSWORD: superSecurePassword!@#$%999
+      POSTGRES_USER: youruser
+      POSTGRES_PASSWORD: yoursecurepassword
     ports:
       - "5432:5432"
     volumes:
