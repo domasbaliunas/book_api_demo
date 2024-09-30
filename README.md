@@ -8,6 +8,7 @@ A simple Spring Boot demo API with a PostgreSQL database.
 * Postgres 17
 
 ## Usage
+0. Create mock database data by running `psql -U postgres -h localhost -f setup_mockdb.sql`
 1. Create a file named `application.properties` in /src/main/resources/
 ```properties
   spring.application.name=book_api_demo
